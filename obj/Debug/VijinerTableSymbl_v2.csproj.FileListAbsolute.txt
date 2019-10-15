@@ -1,0 +1,10 @@
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\bin\Debug\VijinerTableSymbl_v2.exe.config
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\bin\Debug\VijinerTableSymbl_v2.exe
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\bin\Debug\VijinerTableSymbl_v2.pdb
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.csprojAssemblyReference.cache
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.Form1.resources
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.Properties.Resources.resources
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.csproj.GenerateResource.cache
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.csproj.CoreCompileInputs.cache
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.exe
+C:\Projects\ProjectsC#\VijinerTableSymbl_v2\obj\Debug\VijinerTableSymbl_v2.pdb
