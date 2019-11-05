@@ -50,7 +50,8 @@
             this.файлToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 31);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(631, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,13 +61,13 @@
             this.открытьToolStripMenuItem});
             this.файлToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(62, 27);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(53, 23);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(216, 28);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.ОткрытьToolStripMenuItem_Click);
             // 
@@ -76,17 +77,19 @@
             // 
             // CodeTB
             // 
-            this.CodeTB.Location = new System.Drawing.Point(518, 75);
+            this.CodeTB.Location = new System.Drawing.Point(416, 61);
+            this.CodeTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CodeTB.Name = "CodeTB";
-            this.CodeTB.Size = new System.Drawing.Size(270, 363);
+            this.CodeTB.Size = new System.Drawing.Size(204, 296);
             this.CodeTB.TabIndex = 1;
             this.CodeTB.Text = "";
             // 
             // DecodeTB
             // 
-            this.DecodeTB.Location = new System.Drawing.Point(12, 75);
+            this.DecodeTB.Location = new System.Drawing.Point(9, 61);
+            this.DecodeTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DecodeTB.Name = "DecodeTB";
-            this.DecodeTB.Size = new System.Drawing.Size(270, 363);
+            this.DecodeTB.Size = new System.Drawing.Size(204, 296);
             this.DecodeTB.TabIndex = 2;
             this.DecodeTB.Text = "";
             // 
@@ -94,9 +97,10 @@
             // 
             this.TextLable.AutoSize = true;
             this.TextLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.8F);
-            this.TextLable.Location = new System.Drawing.Point(12, 49);
+            this.TextLable.Location = new System.Drawing.Point(9, 40);
+            this.TextLable.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TextLable.Name = "TextLable";
-            this.TextLable.Size = new System.Drawing.Size(128, 20);
+            this.TextLable.Size = new System.Drawing.Size(100, 17);
             this.TextLable.TabIndex = 3;
             this.TextLable.Text = "Расшифровка";
             // 
@@ -104,9 +108,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.8F);
-            this.label2.Location = new System.Drawing.Point(514, 49);
+            this.label2.Location = new System.Drawing.Point(413, 40);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
+            this.label2.Size = new System.Drawing.Size(76, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Шифровка";
             // 
@@ -114,24 +119,27 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.8F);
-            this.label3.Location = new System.Drawing.Point(285, 49);
+            this.label3.Location = new System.Drawing.Point(214, 40);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 20);
+            this.label3.Size = new System.Drawing.Size(43, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Ключ";
             // 
             // KeyTB
             // 
-            this.KeyTB.Location = new System.Drawing.Point(289, 75);
+            this.KeyTB.Location = new System.Drawing.Point(217, 61);
+            this.KeyTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.KeyTB.Name = "KeyTB";
-            this.KeyTB.Size = new System.Drawing.Size(223, 22);
+            this.KeyTB.Size = new System.Drawing.Size(195, 20);
             this.KeyTB.TabIndex = 6;
             // 
             // CodeButton
             // 
-            this.CodeButton.Location = new System.Drawing.Point(288, 389);
+            this.CodeButton.Location = new System.Drawing.Point(216, 316);
+            this.CodeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CodeButton.Name = "CodeButton";
-            this.CodeButton.Size = new System.Drawing.Size(108, 49);
+            this.CodeButton.Size = new System.Drawing.Size(81, 40);
             this.CodeButton.TabIndex = 7;
             this.CodeButton.Text = "Шифровка";
             this.CodeButton.UseVisualStyleBackColor = true;
@@ -139,9 +147,10 @@
             // 
             // DecodeButton
             // 
-            this.DecodeButton.Location = new System.Drawing.Point(404, 389);
+            this.DecodeButton.Location = new System.Drawing.Point(325, 316);
+            this.DecodeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DecodeButton.Name = "DecodeButton";
-            this.DecodeButton.Size = new System.Drawing.Size(108, 49);
+            this.DecodeButton.Size = new System.Drawing.Size(87, 40);
             this.DecodeButton.TabIndex = 8;
             this.DecodeButton.Text = "Дешифровка";
             this.DecodeButton.UseVisualStyleBackColor = true;
@@ -149,9 +158,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(631, 364);
             this.Controls.Add(this.DecodeButton);
             this.Controls.Add(this.CodeButton);
             this.Controls.Add(this.KeyTB);
@@ -162,6 +171,7 @@
             this.Controls.Add(this.CodeTB);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
